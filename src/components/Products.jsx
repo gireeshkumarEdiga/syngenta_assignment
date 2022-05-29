@@ -30,7 +30,7 @@ export const Products = () => {
 
         const handleClickCart = (e) => {
            dispatch(addCart(e));
-           axios.post("https://myntra123.herokuapp.com/productdetails",e);
+           axios.post("https://server-swiggy.herokuapp.com/restaurants/",e);
         }
      
         // https://go-comet-backend.herokuapp.com/product
